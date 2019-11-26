@@ -1,0 +1,228 @@
+body {
+    background: url("../images/concrete_seamless.png") repeat fixed center;
+    font-size: 18px;
+    line-height: 34px;
+    color: #777;
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    display: block;
+}
+
+h1 {
+    float: left;
+    background-color: #4aaaa5;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-size: 30px;
+    line-height: 90px;
+    width: 250px;
+    height: 90px;
+    margin: 0;
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
+}
+
+.topbar {
+    background-color: #fff;
+    color: #fff;
+    width: 100%;
+    overflow: auto;
+    margin: 0 0 30px;
+    border-bottom: 4px solid #ccc;
+    z-index: 5;
+    font-family: Georgia, Times, "Times New Roman", serif;
+}
+
+.navbar {
+    width: 100%;
+    max-width: 960px;
+    margin: 0 auto;
+    /* clear: both; */
+}
+
+.about {
+    border-left-style: none;
+    padding: 15px;
+}
+
+.nav-right {
+    float: right;
+    margin-top: 25px;
+    display: block;
+    /* border: 5px solid red; */
+}
+
+.central-container {
+    min-height: calc(75vh - 70px);
+    width: 960px;
+    margin: 0 auto;
+    background: white repeat;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+h2 {
+    padding-left: 45px;
+    color: #4aaaa5;
+    font-size: 30px;
+    line-height: 90px;
+    margin: auto;
+    margin-bottom: -15px;
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
+}
+
+hr {
+    width: 870px;
+    height: 1px;
+    background-color: #ccc;
+    border-top-style: hidden;
+    border-left-style: hidden;
+}
+
+.bio-image {
+    width: 200px;
+    height: 200px;
+    padding-top: 20px;
+    padding-left: 45px;
+    margin-right: 20px;
+    float: left;
+}
+
+p {
+    padding-left: 45px;
+}
+
+a {
+    color: #999;
+    text-decoration: none;
+    border-left: 1px solid #999;
+    padding-left: 15px;
+    margin-left: 15px;
+    line-height: 18px;
+    display: inline-block;
+}
+
+h6 {
+    margin: 0 auto;
+    padding-top: 20px;
+    text-align: center;
+    font-size: 15px;
+    color: #ccc;
+}
+
+footer {
+    height: 50px;
+    margin-top: 30px;
+    display: block;
+    background-color: #666;
+    border-top: 8px solid #4aaaa5;
+    padding: 15px 0px;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+.aboutMePTag {
+    width: 870px;
+    padding-right: 30px;
+}
+
+.form {
+    padding-left: 45px;
+}
+
+.label {
+    font-size: medium;
+    
+}
+input, textarea {
+    display: block;
+    border-color: #ccc;
+    width: 870px;
+    border-inline-start-style: solid;
+    border-top-style: solid;
+    padding-left: 9px;
+}
+
+input {
+    height: 20px;
+    border: 1px solid #ccc;
+}
+
+button {
+    background-color: #4aaaa5;
+    width: 90px;
+    height: 30px;
+    margin-top: 10px;
+    color: white;
+}
+
+.imgWrapper{
+    margin-left: 45px;
+    position: relative;
+    width: 870px;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+
+img {
+    width: 200px;
+    height: 130px;
+    position: relative;
+    margin-right: 50px;
+}
+
+.textoverpic {
+    background-color: #4aaaa5;
+    color: white;
+    width: 200px;
+    height: 25px;
+    text-align: center;
+    float: left;
+    padding-bottom: 5px;
+}
+
+.hangmanbox, rpggamebox, triviabox, rutgersbox, rockpaperbox {
+    position: relative;
+}
+
+.textoverpic1 {
+    position: absolute;
+    margin: 0;
+    top: 92px;
+}
+
+.textoverpic2 {
+    position: absolute;
+    margin: 0;
+    top: 92px;
+    left: 250px;
+}
+
+.textoverpic3 {
+    position: absolute;
+    margin: 0;
+    top: 235px;
+}
+
+.textoverpic4 {
+    position: absolute;
+    margin: 0;
+    top: 235px;
+    left: 250px;
+}
+
+.textoverpic5 {
+    position: absolute;
+    margin: 0;
+    top: 378px;
+}
+
+.column1 {
+    float: left;
+}
+
+.column3 {
+    float: left;
+    
+}
